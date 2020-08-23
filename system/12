@@ -2,4 +2,4 @@
 
 sudo du -sh /var
 
-* or sudo du -sh --apparent-size /var //Need to cross_check
+# or sudo du -sh --apparent-size /var //Need to cross_check
