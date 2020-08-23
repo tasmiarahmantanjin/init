@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pkill tail
+
+#first run ' tail -f /var/log/syslog &'
+# then use pkill tail

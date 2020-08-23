@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# By using & at the end of the command will run the command in backgraound
+
+tail -f /var/log/syslog &

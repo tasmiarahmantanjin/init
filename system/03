@@ -1,0 +1,4 @@
+We need ton edit the file /etc/hostname, to make it permanent.
+Delete the existing name and replace it with a new name, like below:
+
+vi /etc/newname

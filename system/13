@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ps -aux | less
+
+# or: ps aux | less
+# or: top
+
+# Where,
+# A : Select all processes
+# u : Select all processes on a terminal, including those of other users
+# x : Select processes without controlling ttys
