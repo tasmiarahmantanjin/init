@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Search for system configuration folder of any Unix system, then for hosts.
+# Path that contains the contains the local DNS entries is:
+
+find /etc/hosts

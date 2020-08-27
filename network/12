@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# The Dynamic Host Configuration Protocol (DHCP) is a network management
+# protocol used on UDP/IP networks whereby a DHCP server dynamically assigns
+# an IP address and other network configuration parameters to each device on
+# a network so they can communicate with other IP networks.
+# or ifconfig en0 | grep "inet " | awk '{print $2}' Both command is doing the same things
+
+# The IP assigned to us by the DHCP Server is found with the following command:
+
+ipconfig getifaddr en0

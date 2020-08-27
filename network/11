@@ -1,0 +1,6 @@
+# From the output of traceroute slash16.org we can find  name and IP address of the
+device that makes the link between (local network) and the outside world (public network )
+
+nat (10.60.1.1) converts your local address to the public one.
+
+#In addition: Line 1: Local IP; Line 2: NAT IP; Line 3: Public IP 

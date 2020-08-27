@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# The file that contains the IP address of the DNS server used on this machine is located in the following path: 
+
+/etc/resolv.conf
+
+# grep "nameserver" /etc/resolv.confi :Using this command the DNS ip can be seen directly
+

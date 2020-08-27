@@ -1,0 +1,9 @@
+#!/bin/sh
+
+nslookup slash16.org
+
+echo '=========================='
+
+echo '[DNS SERVER IP ADDRESS]:'
+nslookup slash16.org | grep "Server" | cut -d ":" -f2 | tr -d "\t"
+

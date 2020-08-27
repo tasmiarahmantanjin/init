@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# NAME
+#        nslookup - query Internet name servers interactively
+#
+# SYNOPSIS
+#        nslookup [-option] [name | -] [server]
+#
+# DESCRIPTION
+#        Nslookup is a program to query Internet domain name servers.
+
+# To query 'slash16.org' with the Google DNS Server (8.8.8.8) we can
+# simply specify its IP address.
+
+nslookup slash16.org 8.8.8.8

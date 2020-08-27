@@ -1,0 +1,8 @@
+#!/bin/bash
+
+netstat -rn | grep 'default' | head -1 | sed -n 's/  */ /gp'
+
+# netstat's '-n' flag shows network addresses as numbers. When this flag is not specified, the netstat command interprets addresses where possible and displays them symbolically. 
+# This flag can be used with any of the display formats.
+# netstat's '-r' flag shows the routing tables. When used with the -s flag, the-r flag shows routing statistics. See Routing Table Display.
+# 'head -1' will print the  1st line from the grep result

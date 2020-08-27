@@ -1,0 +1,7 @@
+#Command for the desired output: nslookup 10.11.5.18
+#Command: host 10.11.5.18 will give similer output
+
+Server:		10.51.1.253
+Address:	10.51.1.253#53
+
+18.5.11.10.in-addr.arpa	name = c1r5p18.hive.fi.

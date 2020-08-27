@@ -1,0 +1,9 @@
+1. Open the path /etc/hosts with any text editor. For ex : vim /etc/hosts
+2. Then modity the Modify /etc/hosts and map the ip 46.19.122.85 to intra.42.fr
+
+# Output will be look like: 
+
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+46.19.122.85    intra.42.fr
