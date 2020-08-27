@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Enter the name of a user: "
+read $user
+userdel -r $user
+kill -9 $PID
+
+# userdel - delete user account and related files
+# Useful link: https://fi.godaddy.com/help/remove-a-linux-user-19158
