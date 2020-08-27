@@ -1,0 +1,5 @@
+systemctl list-units --type service --all
+
+# or systemctl list-unit-files --type=service --state=enabled : will shows more specifficly
+# daemon
+# or systemctl list-units --type=service --state=active

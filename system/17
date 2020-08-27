@@ -1,0 +1,3 @@
+ssh <username>@<ip>
+
+# Example: ssh trahman@10.11.199.232

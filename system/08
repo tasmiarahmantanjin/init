@@ -1,0 +1,6 @@
+The file is called authorized_keys, it is located on .ssh folder:
+
+~/.ssh/authorized_keys
+
+# if the .ssh don't exist you need to generate a new key with ssh-keygen command
+#to see it: cat ~/.ssh/id_rsa

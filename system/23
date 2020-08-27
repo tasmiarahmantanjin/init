@@ -1,0 +1,13 @@
+1) Switch Users Graphical Session:
+
+	- Log-out from the current user account
+	- Then from the screen press 'Switch User'
+	- Select different user, enter password
+	- In the password box and finally press 'Sign in' (or 'Unlock' (or 'Enter'))
+
+2) Switch User SSH Session:
+
+	- Logout of current session if already in one, using the 'Logout' command;
+	  (else skip this step if not already in a session)
+	- Type in the following command: 'ssh <username>@<ipaddress>'
+	  in the terminal; (and you should be in the user's account).

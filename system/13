@@ -1,9 +1,11 @@
 #!/bin/bash
 
-ps -aux | less
+top
+
 
 # or: ps aux | less
-# or: top
+# or: ps -aux | less to see the overall status
+
 
 # Where,
 # A : Select all processes

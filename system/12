@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sudo du -sh /var
+du -sh /var*
 
 # or sudo du -sh --apparent-size /var //Need to cross_check
+#or du -h --max-depth=1 /var

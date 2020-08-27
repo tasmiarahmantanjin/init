@@ -1,0 +1,17 @@
+cron
+
+# cron lets you run commands or scripts are a specific time and date, regularly
+# https://debian-handbook.info/browse/stable/sect.task-scheduling-cron-atd.html
+
+# Sample crontab file
+# Format
+# min hour day mon dow  command
+
+# Download data every night at 7:25 pm
+ 25  19   *   *   *    $HOME/bin/get.pl
+
+# 8:00 am, on weekdays (Monday through Friday)
+ 00  08   *   *   1-5  $HOME/bin/dosomething
+
+# Restart the IRC proxy after each reboot
+@reboot /usr/bin/dircproxy

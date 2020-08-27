@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo reboot -f
+service ssh restart
 
-* or sudo service ssh restart
+#or sudo reboot -f

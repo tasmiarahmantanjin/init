@@ -1,0 +1,5 @@
+#!/bin/bash
+
+adduser usrename
+
+# Example: adduser rahmant

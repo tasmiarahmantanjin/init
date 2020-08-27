@@ -1,0 +1,7 @@
+#!/bin/bash
+
+apt list --installed
+
+# This will give the all installed packages info
+
+# apt list :will give the list of all packages

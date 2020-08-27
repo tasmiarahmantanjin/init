@@ -1,3 +1,6 @@
 #!/bin/bash
 
+service sshd status | grep PID | tail -1
 
+#or systemctl status sshd | grep PID | tail -1 | awk ' { print $3 } '
+#or service sshd status | grep PID | tail -1 | awk ' { print $3 } '
